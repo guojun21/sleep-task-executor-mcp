@@ -1,0 +1,16 @@
+{
+  "name": "sleep-task-executor-mcp",
+  "version": "0.1.0",
+  "description": "LLM sleep task executor MCP server",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "sleep-task-executor-mcp": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  }
+}
